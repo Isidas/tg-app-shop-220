@@ -4,14 +4,14 @@ import ProductItem from "../ProductItem/ProductItem";
 import { useTelegram } from "../../hooks/useTelegram";
 
 const products = [
-    {id:'1', title: 'Джинсы', prise: 5000, description: 'Синего цвета, прямые'},
-    {id:'2', title: 'Куртка', prise: 12000, description: 'Красного цвета, зимняя'},
-    {id:'3', title: 'Футболка', prise: 1000, description: 'Черного цвета'},
-    {id:'4', title: 'Свитер', prise: 3000, description: 'Желтого цвета, теплый'},
-    {id:'5', title: 'Кепка', prise: 500, description: 'Цвета хакки'},
-    {id:'6', title: 'Сапоги', prise: 15000, description: 'Белого цвета, женские'},
-    {id:'7', title: 'Панамка', prise: 200, description: 'Синего цвета, летняя'},
-    {id:'8', title: 'Джемпер', prise: 5000, description: 'Синего цвета'},
+    {id:'1', title: 'Перфоратор', prise: 5000, description: 'Пульсар'},
+    {id:'2', title: 'Шуруповерт', prise: 3000, description: 'Crown'},
+    {id:'3', title: 'УШМ', prise: 6000, description: 'Bosch'},
+    {id:'4', title: 'Сабельная пила', prise: 4200, description: 'Crown'},
+    {id:'5', title: 'Бензопила', prise: 7300, description: 'DDE'},
+    {id:'6', title: 'Мотоблок', prise: 25000, description: 'Brite'},
+    {id:'7', title: 'Триммер', prise: 7800, description: 'Champion'},
+    {id:'8', title: 'Мотокоса', prise: 9600, description: 'DDE'},
 ]
 
 const getTotalPrise = (item) => {
